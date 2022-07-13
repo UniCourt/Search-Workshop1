@@ -1,0 +1,27 @@
+version: '3.7'
+ # database is one service that we have in this docker-compose
+services:
+ database:
+  # For this service we are using postgres:12-alpine image, it is nothing but a docker image. These images we can get it from dockerhub
+  image: postgres:14-alpine
+  # Below we are setting the environment by setting username,password,database name
+  environment:
+   POSTGRES_DB: postgres
+   POSTGRES_USER: postgres
+   POSTGRES_PASSWORD: postgres
+
+  # volumes from our system at target paths inside the container
+  volumes:
+   - /home/mis/sample/postgres/data:/var/lib/postgresql/data
+
+  # maps the external port 5432 to internal port 5432
+  ports:
+   - "5432:5432"
+
+ script:
+  image: 'script'
+  volumes:
+   - /script:/home/script
+  command: sh /script/script_run.sh
+  ports:
+   - "8000:8000"

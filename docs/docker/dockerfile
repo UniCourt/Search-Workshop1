@@ -1,0 +1,17 @@
+# Using ubuntu official image from dockerhub
+FROM postgres
+
+# Setting the environment variables like password and database
+ENV POSTGRES_PASSWORD docker
+ENV POSTGRES_DB student
+ENV POSTGRES_USER docker
+
+# copying student.sql and placing in docker-entrypoint-initdb.d folder,
+# and the first time it starts it will import those SQL files
+COPY student.sql /docker-entrypoint-initdb.d/
+
+# Expose the PostgreSQL port
+EXPOSE 5432
+
+# Add VOLUMEs to allow backup of config, logs and databases
+VOLUME  ["/etc/postgresql", "/var/log/postgresql", "/var/lib/postgresql"]
