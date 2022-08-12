@@ -33,3 +33,6 @@ changing as more code is added by developers. Git helps us with the following fe
   6. ### Pull:
       When the remote repository changes, our local copy is left behind. We can update our local 
       copy with the new changes in the remote repository using the pull feature.
+     
+## Setting up Git
+[`Git Commands (push, pull, make Pull request etc)`](git.md)

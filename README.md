@@ -1,30 +1,49 @@
 # Git, Docker and Postgres Workshop
 
-One Day workshop on understanding Docker and Git
+One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
 
-- linux os
+##### Any Linux machine with following packages installed
 - git
 - python3.10
 - Docker
+- Docker Compose
 
-## GIT
-- You will be Introduced to GIT
-- You will learn git commands (push, pull make Pull request etc)
+##### GitHub account
+- Create an account on [GitHub](https://github.com/join) (if you don't already have one)
+- Fork [this](https://github.com/UniCourt/Search-Workshop1) repository and then clone it to your machine
+- You can refer [this](https://docs.github.com/en/get-started/quickstart/fork-a-repo) guide to understand how to fork and clone
 
-## Docker
-- By the end of this workshop you will understand following things:
-- You will be Introduced to the concept of containerisation and why its required.
-- You will learn how to Build and run your own Containers.
-- You will learn how to Run Multiple Services with Docker Compose
-- You will learn how to Expose Ports, Volume Mounts, Utilizing Networks, Limiting Resources (the 4 features we use regularly.)
 
-## Postgresql
-- You will learn basics of postgres.
-- You will learn how to connect and query to postgres database.
+##### Docker
+- To install docker go to your cloned repository and run the following command
+- `sudo sh install_docker.sh`
 
-## Running Scripts
-- You will learn how scripts and postgres integrate as multiple services as containers.
-- You will learn how data can be read from files and populated to database.
+## What will you learn by the end of this workshop?
+- Introduction to GIT
+- Git commands (push, pull make Pull request etc)
+- Concepts of containerisation and why its required.
+- Building and running your own Containers.
+- Running Multiple Services with Docker Compose
+- Other docker concepts like exposing Ports, Volume Mounts, Utilizing Networks, Limiting Resources (the 4 features we use regularly.)
+- Basics of postgres.
+- Connecting and querying to postgres database.
+- Integration of scripts and postgres as multiple services as containers.
+- Reading data from files and populating to database.
 
+## Schedule
+| Time            | Topics
+|-----------------|-------
+| 09:00 - 9:15   |  `Introduction`
+| 09:15 - 10:00   |  [`Introduction to GIT`](docs/git/git_intro.md)
+| 9:45 - 10:15   |  [`Git Commands (push, pull, make Pull request etc)`](docs/git/git.md)
+| 10:15 - 10:30   |  [`What is docker`](docs/docker/docker_intro.md)
+| 10:30 - 11:15   |  [`Docker Commands`](docs/docker/docker_commands.md)
+|                 | [`Run Multiple Services with Docker Compose`](docs/docker/docker_compose.md)
+| 11:15 -  12:00    |  [`Expose Ports, Volume Mounts, Utilizing Networks, Limiting Resources`](docs/docker/docker_volume_mount.md)
+| 12:00 -  1:00    |  `Introduction to Postgres`
+| 12:00 - 01:00   |  `Break`
+| 2:00 -  2:30    |  `Postgres Continuation`
+| 2:30 -  4:00    |  `Running scripts`
+| 4:00 -  4:30    |  `Q & A and Wrapping Up`
