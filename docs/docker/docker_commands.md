@@ -31,7 +31,7 @@ There are several docker commands you must know when working with Docker.
 To find the installed docker version
 Command:
 ```
-docker  -version
+docker  --version
 ``` 
 Example:
 ```

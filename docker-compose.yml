@@ -21,7 +21,7 @@ services:
  script:
   image: 'script'
   volumes:
-   - /script:/home/script
-  command: sh /script/script_run.sh
+   - ./src/script/:/script/
+  command: "sh script_run.sh"
   ports:
    - "8000:8000"
