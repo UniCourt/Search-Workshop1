@@ -27,4 +27,4 @@ creating a github account
 
 ## Docker image
     1. docker pull hello-world
-    2. docker pull python-alpine:3.10
+    2. docker pull python:3.10-alpine
