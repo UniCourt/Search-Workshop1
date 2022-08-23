@@ -1,6 +1,7 @@
 """
 Methods to set postgres connection and add data to database
 """
+import os
 import sys
 import psycopg2
 
@@ -13,11 +14,11 @@ def set_connection(logger):
     :return:
     """
     # Change the below variables to connect to your local setup
-    db_name = "db_name"
-    user_name = 'workshop_user'
-    password = 'workshop_user1'
-    host_ip = '127.0.0.1'
-    port = '5432'
+    db_name = os.environ['POSTGRES_DB']
+    user_name = os.environ['POSTGRES_USER']
+    password = os.environ['POSTGRES_PASSWORD']
+    host_ip = os.environ['POSTGRES_HOST']
+    port = os.environ['POSTGRES_PORT']
     try:
         postgres_conn = psycopg2.connect(
             database=db_name, user=user_name, password=password,

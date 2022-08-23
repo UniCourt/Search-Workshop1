@@ -19,7 +19,7 @@ docker-compose --help	Get help on a command
 docker-compose build	Look for all services containing the build: statement in the docker-compose.yml file and run a docker build for each one
 docker-compose run	Run a one-off command
 docker-compose up	Create and start containers
-docker-compose -f 	Specify name and path of one or more Compose files
+docker-compose -f 	Specify the name and path of one or more Compose files
 docker-compose start	Start existing containers for a service
 docker-compose stop	Stop running containers (without removing them)
 docker-compose pause	Pause running containers of a service
