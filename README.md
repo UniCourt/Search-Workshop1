@@ -39,11 +39,12 @@ One Day workshop on understanding Git, Docker and Postgres
 | 09:15 - 10:00   |  [`Introduction to GIT`](docs/git/git_intro.md)
 | 9:45 - 10:15   |  [`Git Commands (push, pull, make Pull request etc)`](docs/git/git.md)
 | 10:15 - 10:30   |  [`What is docker`](docs/docker/docker_intro.md)
-| 10:30 - 11:15   |  [`Docker Commands`](docs/docker/docker_commands.md)
-|                 | [`Run Multiple Services with Docker Compose`](docs/docker/docker_compose.md)
-| 11:15 -  12:00    |  [`Expose Ports, Volume Mounts, Utilizing Networks, Limiting Resources`](docs/docker/docker_volume_mount.md)
-| 12:00 -  1:00    |  `Introduction to Postgres`
-| 12:00 - 01:00   |  `Break`
+| 10:30 - 11:30   |  [`Docker Commands`](docs/docker/docker_commands.md)
+| 11:45 - 12:00    | [`Run Multiple Services with Docker Compose`](docs/docker/docker_compose.md)
+| 12:00 -  12:30  |  [`Expose Ports, Volume Mounts, Utilizing Networks, Limiting Resources`](docs/docker/docker_volume_mount.md)
+| 12:30 - 1:00   | [`Introduction to Postgres`](docs/postgres/README.md)
+| 01:00 - 02:00   |  `Break`
+| 2:00 -  2:30  |  [`Docker compose with Postgres`](docs/script/script_1.md)
 | 2:00 -  2:30    |  `Postgres Continuation`
-| 2:30 -  4:00    |  `Running scripts`
+| 2:30 -  4:00    |  [`Running scripts`](docs/script/script_2.md)
 | 4:00 -  4:30    |  `Q & A and Wrapping Up`

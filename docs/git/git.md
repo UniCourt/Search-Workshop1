@@ -26,11 +26,10 @@ To check the configuration, run:
     git config --global --list
 
 Add ssh keys to your GitHub account:
-    
-    1. sudo apt install xclip
-    2. ssh-keygen -t ed25519 -C  "your_email"
-    3. xclip -sel clip < ~/.ssh/id_ed25519.pub
-    4. Visit this url: https://github.com/settings/ssh/new. Paste the key and save.
+
+    1. ssh-keygen -t ed25519 -C  "your_email"
+    2. cat ~/.ssh/id_ed25519.pub
+    3. Visit this url: https://github.com/settings/ssh/new. Paste the key and save.
 
 
 ## Fork a repository
@@ -61,7 +60,7 @@ Authenticate with GitHub by following the instructions in the SSH documentation.
 
 ## View your remote repositories
 To view the remote repositories that you have added, run following command:
-
+    cd <repo_name>
     git remote -v
 ## Configuring remote repositories
 
@@ -72,9 +71,10 @@ Generally two remote repositories are maintained origin and upstream.
 
 Since you cloned your repo from GitHub you should already have a remote called origin.
 
-Run the following command to add an upstream repository.
+Run the following command to add an upstream repository and view it.
 
     git remote add upstream <upstream_clone_url>
+    git remote -v
 
 
 ## Create a branch
@@ -120,7 +120,7 @@ To stage all files in the current directory and subdirectory, we can use followi
 
 ## Commit the staged files:
 The git commit command creates a snapshot of all the staged changes in the project history.
-Now to commit all the changed that are made run the following command:
+Now to commit all the changes that are made run the following command:
 
     git commit -m "message"
 The message in the commit command must describe the intention of your commit.

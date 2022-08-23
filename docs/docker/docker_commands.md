@@ -1,7 +1,7 @@
 ## Docker post-installation setup
 Optional configuration for Linux to work better with Docker.
 
-### Run Docker as non-root user
+### Run Docker as a non-root user
 To create the docker group and add your user:
 
 1. Create the docker group.
@@ -25,7 +25,7 @@ docker images
 <br />
 
 ## Docker Commands
-Docker is a containerization system which packages and runs the application with its dependencies inside a container. 
+Docker is a containerization system that packages and runs the application with its dependencies inside a container. 
 There are several docker commands you must know when working with Docker.
 ### 1. Docker version
 To find the installed docker version
@@ -69,10 +69,9 @@ alpine      latest  c059bfaa849c    6 weeks ago  5.59MB
 ```
 
 ### 3. Run docker image
-The `docker run` command is the command used to launch Docker containers.
+The `docker run` command is used to launch Docker containers.
 
-When an operator executes `docker run`, the container process that runs is isolated in that it has its own file system, 
-its own networking, and its own isolated process tree separate from the host.
+When an operator executes `docker run`, the container process that runs is isolated in that it has its own file system, networking, and its own isolated process tree separate from the host.
 <br>
 Command:
 ```
@@ -81,17 +80,19 @@ docker run [options] <IMAGE>
 > Explore options [here](https://docs.docker.com/engine/reference/run/)
 
 
-Example of running alpine:latest image, the options -t allows us to access the terminal and -i gets stdin stream added. Basicaly using -ti adds the terminal driver.
+Example of running alpine:latest image, the options -t allows us to access the terminal and -i gets stdin stream added. Basically using -ti adds the terminal driver.
 ```
 docker run -t -i alpine:latest
 or
 docker run -ti alpine:latest
+
+exit
 ```
 
 <br>
 
 ### 4. Running containers
-Let us check what all the container are running currently, The command. `docker ps` will list only running containers
+Let us check what containers are running currently, The command. `docker ps` will list only running containers
 <br>
 Command:
 ```
@@ -126,7 +127,7 @@ docker exec -ti 8973c7347905 sh
 helloworld.txt
 /demo # 
 ```
-`mkdir` command to create directory or folder<br />
+`mkdir` command to create a directory or folder<br />
 `cd` change directory used to change the current working directory <br />
 `touch` command to create a blank file<br />
 <br />
@@ -168,7 +169,7 @@ docker start [OPTIONS] <CONTAINER_ID>
 > Explore options [here](https://docs.docker.com/engine/reference/commandline/start/)
 
 
-Example of starting alpine:latest container. Before to start the container we need the container id, 
+Example of starting alpine:latest container. Before starting the container we need the container id, 
 so let's get the container id by `docker ps -a` command.
 ```
 docker ps -a
@@ -197,7 +198,7 @@ Command:
 ```
 docker rmi [OPTIONS] <IMAGE_ID> / <IMAGE_ID...>
 ```
-Example: Remove alpine:latest container
+Example: Remove alpine:latest image
 ```
 docker rmi c059bfaa849c
 ```
