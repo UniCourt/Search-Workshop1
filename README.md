@@ -43,7 +43,7 @@ One Day workshop on understanding Git, Docker and Postgres
 | 11:45 - 12:00    | [`Run Multiple Services with Docker Compose`](docs/docker/docker_compose.md)
 | 12:00 -  12:30  |  [`Expose Ports, Volume Mounts, Utilizing Networks, Limiting Resources`](docs/docker/docker_volume_mount.md)
 | 12:30 - 1:00   | [`Introduction to Postgres`](docs/postgres/README.md)
-| 01:00 - 02:00   |  `Break`
+| 01:00 - 02:00   |  `Break time`
 | 2:00 -  2:30  |  [`Docker compose with Postgres`](docs/script/script_1.md)
 | 2:00 -  2:30    |  `Postgres Continuation`
 | 2:30 -  4:00    |  [`Running scripts`](docs/script/script_2.md)
