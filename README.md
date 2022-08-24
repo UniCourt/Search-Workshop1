@@ -5,7 +5,7 @@ One Day workshop on understanding Git, Docker and Postgres
 ## Prerequisite
 
 ##### Any Linux machine with following packages installed
-- git
+- gittt
 - python3.10
 - Docker
 - Docker Compose
