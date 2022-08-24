@@ -1,4 +1,4 @@
-# Git, Docker and Postgres Workshop
+# Git, Docker and Postgres Workshop ~CRYSTAL DSOUZA
 
 One Day workshop on understanding Git, Docker and Postgres
 
