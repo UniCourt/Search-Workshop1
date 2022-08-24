@@ -32,8 +32,8 @@ One Day workshop on understanding Git, Docker and Postgres
 - Integration of scripts and postgres as multiple services as containers.
 - Reading data from files and populating to database.
 
-## Schedule
-| Time            | Topics
+## Schedule 23
+| Time            | All Topics
 |-----------------|-------
 | 09:00 - 9:15   |  `Introduction`
 | 09:15 - 10:00   |  [`Introduction to GIT`](docs/git/git_intro.md)
