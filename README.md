@@ -5,10 +5,10 @@ One Day workshop on understanding Git, Docker and Postgres
 ## Prerequisite
 
 ##### Any Linux machine with following packages installed
-- git
+- git th
 - python3.10
 - Docker
-- Docker Compose
+- Docker Compose hi
 
 ##### GitHub account
 - Create an account on [GitHub](https://github.com/join) (if you don't already have one)
