@@ -45,6 +45,6 @@ One Day workshop on understanding Git, Docker and Postgres
 | 12:30 - 1:00   | [`Introduction to Postgres`](docs/postgres/README.md)
 | 01:00 - 02:00   |  `Break`
 | 2:00 -  2:30  |  [`Docker compose with Postgres`](docs/script/script_1.md)
-| 2:00 -  2:30    |  `Postgres Continuation`
-| 2:30 -  4:00    |  [`Running scripts`](docs/script/script_2.md)
+| 2:00 -  2:38    |  `Postgres Continuation`
+| 2:30 -  4:08    |  [`Running scripts`](docs/script/script_2.md)
 | 4:00 -  4:30    |  `Q & A and Wrapping Up`
