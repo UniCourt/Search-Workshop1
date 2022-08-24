@@ -21,6 +21,7 @@ One Day workshop on understanding Git, Docker and Postgres
 - `sudo sh install_docker.sh`
 
 ## What will you learn by the end of this workshop?
+#SarathPavithrannnnnnn!!!!
 - Introduction to GIT
 - Git commands (push, pull make Pull request etc)
 - Concepts of containerisation and why its required.
