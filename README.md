@@ -32,6 +32,7 @@ One Day workshop on understanding Git, Docker and Postgres
 - Connecting and querying to postgres database.
 - Integration of scripts and postgres as multiple services as containers.
 - Reading data from files and populating to database.
+- Chakka Maanga thengaaaaaa.... 
 
 ## Schedule
 | Time            | Topics
