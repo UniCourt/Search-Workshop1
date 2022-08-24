@@ -1,11 +1,11 @@
 # Git, Docker and Postgres Workshop
 
 One Day workshop on understanding Git, Docker and Postgres
-
+hamdan
 ## Prerequisite
 
 ##### Any Linux machine with following packages installed
-- git
+- git 
 - python3.10
 - Docker
 - Docker Compose
