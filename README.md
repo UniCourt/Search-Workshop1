@@ -1,5 +1,5 @@
 # Git, Docker and Postgres Workshop
-
+Testing
 One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
