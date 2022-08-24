@@ -6,7 +6,7 @@ One Day workshop on understanding Git, Docker and Postgres
 
 ##### Any Linux machine with following packages installed
 - git
-- python3.10
+- python 3.10
 - Docker
 - Docker Compose
 
