@@ -15,6 +15,8 @@ One Day workshop on understanding Git, Docker and Postgres
 - Fork [this](https://github.com/UniCourt/Search-Workshop1) repository and then clone it to your machine
 - You can refer [this](https://docs.github.com/en/get-started/quickstart/fork-a-repo) guide to understand how to fork and clone
 
+work
+
 
 ##### Docker
 - To install docker go to your cloned repository and run the following command
