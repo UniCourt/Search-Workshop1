@@ -48,3 +48,8 @@ One Day workshop on understanding Git, Docker and Postgres
 | 2:00 -  2:30    |  `Postgres Continuation`
 | 2:30 -  4:00    |  [`Running scripts`](docs/script/script_2.md)
 | 4:00 -  4:30    |  `Q & A and Wrapping Up`
+
+
+
+
+Testing
