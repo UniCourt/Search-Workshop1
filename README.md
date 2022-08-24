@@ -9,7 +9,8 @@ One Day workshop on understanding Git, Docker and Postgres
 - python3.10
 - Docker
 - Docker Compose
-
+ - Sohan Austin
+ 
 ##### GitHub account
 - Create an account on [GitHub](https://github.com/join) (if you don't already have one)
 - Fork [this](https://github.com/UniCourt/Search-Workshop1) repository and then clone it to your machine
