@@ -55,11 +55,6 @@ Follow these steps to fork a project:
 Cloning a repository means the files from the remote repository are downloaded to your computer, 
 and a connection is created.
 
-This connection requires you to add credentials. There are two ways to add credentials SSH and HTTPS. 
-We will be using SSH here.
-
-Authenticate with GitHub by following the instructions in the SSH documentation.
-
 1. Go to your project’s landing page and click Clone.
 2. Copy the URL for Clone with SSH.
 3. Open a terminal and go to the directory where you want to clone the files. Run these commands: \
