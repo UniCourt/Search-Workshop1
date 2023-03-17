@@ -3,22 +3,94 @@
 One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
+### Linux machine with following packages installed
+  1. Install Ubuntu 20.04.5 LTS from [here](https://releases.ubuntu.com/22.04/)
+  2. Install Git from your terminal by running following commands
+     -   ```
+         sudo apt-get update
+         ```
+     -   ```
+         sudo apt-get install git
+         ```
+  3. Verify the installation was successful by typing
+     -   ```
+         git --version
 
-##### Any Linux machine with following packages installed
-- git
-- python3.10
-- Docker
-- Docker Compose
+### Fork and clone the workshop project from github:
+##### a. Log into your github account: https://github.com/ 
 
-##### GitHub account
-- Create an account on [GitHub](https://github.com/join) (if you don't already have one)
-- Fork [this](https://github.com/UniCourt/Search-Workshop1) repository and then clone it to your machine
-- You can refer [this](https://docs.github.com/en/get-started/quickstart/fork-a-repo) guide to understand how to fork and clone
+##### b. After installing git, to start using git from your computer, you must enter your credentials to identify yourself as the author of your work. The username and email address should match the ones you use in Github.
+
+Add your username:
+
+    git config --global user.name "your_username"
+
+Add your email address:
+
+    git config --global user.email "your_email_address@example.com"
+
+To check the configuration, run:
+
+    git config --global --list
+
+Add ssh keys to your GitHub account:
+
+    1. ssh-keygen -t ed25519 -C  "your_email"
+    2. cat ~/.ssh/id_ed25519.pub
+    3. Visit this url: https://github.com/settings/ssh/new. Paste the key and save.
+
+##### c. Fork the repository
+Forking refers to making a copy of a project you want to contribute to. 
+Now lets fork a project provided to complete this activity. 
+
+Follow these steps to fork a project:
+
+1. Go to the project url using this link: https://github.com/UniCourt/Search-Workshop1
+2. Click on the fork button in the project page
+3. Select a namespace to fork the project.
 
 
-##### Docker
-- To install docker go to your cloned repository and run the following command
-- `sudo sh install_docker.sh`
+##### d. Clone the repository
+Cloning a repository means the files from the remote repository are downloaded to your computer, 
+and a connection is created.
+
+This connection requires you to add credentials. There are two ways to add credentials SSH and HTTPS. 
+We will be using SSH here.
+
+Authenticate with GitHub by following the instructions in the SSH documentation.
+
+1. Go to your project’s landing page and click Clone.
+2. Copy the URL for Clone with SSH.
+3. Open a terminal and go to the directory where you want to clone the files. Run these commands: \
+i.  ```cd``` \
+ii. ```mkdir projects``` \
+iii.```cd projects``` \
+iv. ```git clone <url_to_clone>``` 
+
+
+## View your remote repositories
+To view the remote repositories that you have added, run following command:
+```cd ~/projects/Search-Workshop1```\
+```git remote -v```
+
+## Configuring remote repositories
+
+We now need to configure our local system to the remote repositories in the git. 
+Generally two remote repositories are maintained origin and upstream. 
+- Origin is a clone of your forked repository, from which you push and pull.
+- Upstream is the repository you forked the repository from.
+
+Since you cloned your repo from GitHub you should already have a remote called origin.
+
+Run the following command to add an upstream repository and view it.
+
+    git remote add upstream git@github.com:UniCourt/Search-Workshop1.git
+    git remote -v
+
+### 3. Install Docker:
+```cd ~/projects/Search-Workshop1```\
+```sudo sh install_docker.sh```
+
 
 ## What will you learn by the end of this workshop?
 - Introduction to GIT
@@ -48,5 +120,3 @@ One Day workshop on understanding Git, Docker and Postgres
 | 2:00 -  2:30    |  `Postgres Continuation`
 | 2:30 -  4:00    |  [`Running scripts`](docs/script/script_2.md)
 | 4:00 -  4:30    |  `Q & A and Wrapping Up`
-
-testing
