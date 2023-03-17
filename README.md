@@ -21,7 +21,7 @@ One Day workshop on understanding Git, Docker and Postgres
 
  b. After installing git, to start using git from your computer, you must enter your credentials to identify yourself as the author of your work. The username and email address should match the ones you use in Github.
 
-Add your username: \
+Add your username: 
 
      git config --global user.name "your_username"
 
