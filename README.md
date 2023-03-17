@@ -4,7 +4,7 @@ One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
 ### Linux machine with following packages installed
-  1. Install Ubuntu 20.04.5 LTS from [here](https://releases.ubuntu.com/22.04/)
+  1. Install Ubuntu 20.04.2 LTS.
   2. Install Git from your terminal by running following commands
      -   ```
          sudo apt-get update
@@ -17,13 +17,14 @@ One Day workshop on understanding Git, Docker and Postgres
          git --version
 
 ### Fork and clone the workshop project from github:
-##### a. Log into your github account: https://github.com/ 
+ a. Log into your github account: https://github.com/ 
 
-##### b. After installing git, to start using git from your computer, you must enter your credentials to identify yourself as the author of your work. The username and email address should match the ones you use in Github.
+ b. After installing git, to start using git from your computer, you must enter your credentials to identify yourself as the author of your work. The username and email address should match the ones you use in Github.
 
-Add your username:
+Add your username: \
 
-    git config --global user.name "your_username"
+     git config --global user.name "your_username"
+
 
 Add your email address:
 
@@ -39,7 +40,7 @@ Add ssh keys to your GitHub account:
     2. cat ~/.ssh/id_ed25519.pub
     3. Visit this url: https://github.com/settings/ssh/new. Paste the key and save.
 
-##### c. Fork the repository
+### c. Fork the repository
 Forking refers to making a copy of a project you want to contribute to. 
 Now lets fork a project provided to complete this activity. 
 
@@ -50,7 +51,7 @@ Follow these steps to fork a project:
 3. Select a namespace to fork the project.
 
 
-##### d. Clone the repository
+#### d. Clone the repository
 Cloning a repository means the files from the remote repository are downloaded to your computer, 
 and a connection is created.
 
@@ -67,30 +68,9 @@ ii. ```mkdir projects``` \
 iii.```cd projects``` \
 iv. ```git clone <url_to_clone>``` 
 
-
-## View your remote repositories
-To view the remote repositories that you have added, run following command:
-```cd ~/projects/Search-Workshop1```\
-```git remote -v```
-
-## Configuring remote repositories
-
-We now need to configure our local system to the remote repositories in the git. 
-Generally two remote repositories are maintained origin and upstream. 
-- Origin is a clone of your forked repository, from which you push and pull.
-- Upstream is the repository you forked the repository from.
-
-Since you cloned your repo from GitHub you should already have a remote called origin.
-
-Run the following command to add an upstream repository and view it.
-
-    git remote add upstream git@github.com:UniCourt/Search-Workshop1.git
-    git remote -v
-
 ### 3. Install Docker:
 ```cd ~/projects/Search-Workshop1```\
 ```sudo sh install_docker.sh```
-
 
 ## What will you learn by the end of this workshop?
 - Introduction to GIT
