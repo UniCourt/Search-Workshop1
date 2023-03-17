@@ -14,8 +14,8 @@ One Day workshop on understanding Git, Docker and Postgres
          ```
   3. Verify the installation was successful by typing
      -   ```
-         git --version
-
+         git --version 
+         ```
 ### Fork and clone the workshop project from github:
  a. Log into your github account: https://github.com/ 
 
