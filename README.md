@@ -1,16 +1,12 @@
 # Git, Docker and Postgres Workshop
 
-First commit
-
-
-
 One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
 
 ### Linux machine with following packages installed
 
-1. Install Ubuntu 20.04.2 LTS.
+1. Install Ubuntu 22.04 LTS.
 2. Install Git from your terminal by running following commands
    - ```
      sudo apt-get update
@@ -74,8 +70,7 @@ and a connection is created.
 
 ### 3. Install Docker:
 
-``cd ~/projects/Search-Workshop1``
-``sudo sh install_docker.sh``
+``sudo apt install docker-compose``
 
 ## What will you learn by the end of this workshop?
 
