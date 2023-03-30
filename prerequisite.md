@@ -23,7 +23,14 @@ creating a github account
 
 ## Docker install 
     1. Go to  Search-Workshop1 (which is cloned in above step)
-    2. sh install_docker.sh (This will install docker)
+    2. Install docker via using this 
+        - In Ubuntu 22.04
+            ``sudo apt install docker-compose``
+        - In Ubuntu 20.04.2
+            ``cd ~/projects/Search-Workshop1``
+
+            ``sudo sh install_docker.sh``
+
 
 ## Docker image
     1. docker pull hello-world
