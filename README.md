@@ -1,4 +1,4 @@
-# Git, Docker and Postgres Workshop
+My 1st workshop # Git, Docker and Postgres Workshop
 
 One Day workshop on understanding Git, Docker and Postgres
 
