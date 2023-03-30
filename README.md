@@ -5,7 +5,7 @@ One Day workshop on understanding Git, Docker and Postgres
 ## Prerequisite
 ### Linux machine with following packages installed
   1. Install Ubuntu 20.04.2 LTS.
-  2. Install Git from your terminal by running following commands
+  2. Install Git from your terminal by running following commands Krishna
      -   ```
          sudo apt-get update
          ```
