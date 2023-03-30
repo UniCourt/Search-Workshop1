@@ -72,12 +72,12 @@ and a connection is created.
 
 - In Ubuntu 22.04
 
-``sudo apt install docker-compose``
+    ``sudo apt install docker-compose``
 - In Ubuntu 20.04.2
 
-``cd ~/projects/Search-Workshop1``
+    ``cd ~/projects/Search-Workshop1``
 
-``sudo sh install_docker.sh``
+    ``sudo sh install_docker.sh``
 
 
 ## What will you learn by the end of this workshop?
