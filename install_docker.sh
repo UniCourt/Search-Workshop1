@@ -426,7 +426,7 @@ do_install() {
 							echo "INFO: $search_command"
 							cli_pkg_version="=$($sh_c "$search_command")"
 					fi
-					pkg_version="=$pkg3_version"
+					pkg_version="=$pkg_version"
 				fi
 			fi
 			(
