@@ -1,5 +1,5 @@
 # Git, Docker and Postgres Workshop
-I am Reenal
+Reenal is hardworking
 One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
