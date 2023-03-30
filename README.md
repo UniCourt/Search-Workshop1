@@ -1,5 +1,11 @@
+
+
+My first y
+workshop 1
+
 # Git, Docker and Postgres Workshop
 
+my workshop
 One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
@@ -20,6 +26,106 @@ One Day workshop on understanding Git, Docker and Postgres
  a. Log into your github account: https://github.com/ 
 
  b. After installing git, to start using git from your computer, you must enter your credentials to identify yourself as the author of your work. The username and email address should match the ones you use in Github.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Add your username: 
 
@@ -61,6 +167,7 @@ and a connection is created.
 i.  ```cd``` \
 ii. ```mkdir projects``` \
 iii.```cd projects``` \
+
 iv. ```git clone <url_to_clone>``` 
 
 ### 3. Install Docker:
