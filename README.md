@@ -1,5 +1,5 @@
 # Git, Docker and Postgres Workshop
-
+Sindhura here!!
 One Day workshop on understanding Git, Docker and Postgres
 
 ## Prerequisite
