@@ -1,6 +1,6 @@
 # Git, Docker and Postgres Workshop
 
-One Day workshop on understanding Git, Docker and Postgres
+One Day workshop on understanding Git, Docker and Postgres haahhahaha
 
 ## Prerequisite
 ### Linux machine with following packages installed
