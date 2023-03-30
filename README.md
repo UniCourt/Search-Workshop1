@@ -1,4 +1,7 @@
 # Git, Docker and Postgres Workshop
+Reenal is hardworking
+
+Reenal is cute
 
 One Day workshop on understanding Git, Docker and Postgres
 
