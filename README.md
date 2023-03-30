@@ -17,8 +17,8 @@ One Day workshop on understanding Git, Docker and Postgres
          git --version
 
 ## Install a Editor of your choice 
-    - We recommend VS code
-    - install vs code using
+We recommend VS code
+install vs code using
     sudo snap install code --classic
 
 
