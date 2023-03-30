@@ -26,7 +26,7 @@ Add your username:
      git config --global user.name "your_username"
 
 
-Add your email address:
+Add yourvemail address:
 
     git config --global user.email "your_email_address@example.com"
 
