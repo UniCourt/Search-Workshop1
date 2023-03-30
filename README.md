@@ -16,6 +16,9 @@ One Day workshop on understanding Git, Docker and Postgres
      -   ```
          git --version
 
+## isntall vs code
+    - sudo snap install code --classic
+
 ### Fork and clone the workshop project from github:
  a. Log into your github account: https://github.com/ 
 
