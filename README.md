@@ -48,7 +48,6 @@ Follow these steps to fork a project:
 
 1. Go to the project url using this link: https://github.com/UniCourt/Search-Workshop1
 2. Click on the fork button in the project page
-3. Select a namespace to fork the project.
 
 
 #### d. Clone the repository
@@ -66,6 +65,8 @@ iv. ```git clone <url_to_clone>```
 ### 3. Install Docker:
 ```cd ~/projects/Search-Workshop1```\
 ```sudo sh install_docker.sh```
+
+##else use sudo apt-get install docker
 
 ## What will you learn by the end of this workshop?
 - Introduction to GIT
