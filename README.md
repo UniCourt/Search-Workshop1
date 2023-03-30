@@ -70,7 +70,12 @@ and a connection is created.
 
 ### 3. Install Docker:
 
+- In Ubuntu 22.04
 ``sudo apt install docker-compose``
+- In Ubuntu 20.04.2
+``cd ~/projects/Search-Workshop1``
+``sudo sh install_docker.sh``
+
 
 ## What will you learn by the end of this workshop?
 
