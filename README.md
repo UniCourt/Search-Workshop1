@@ -66,7 +66,7 @@ iv. ```git clone <url_to_clone>```
 ```cd ~/projects/Search-Workshop1```\
 ```sudo sh install_docker.sh```
 
-##else use sudo apt-get install docker
+#
 
 ## What will you learn by the end of this workshop?
 - Introduction to GIT
