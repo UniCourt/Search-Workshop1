@@ -1,4 +1,6 @@
-# Git, Docker and Postgres Workshop
+ Git, Docker and Postgres Workshop
+
+I am sinchana
 
 One Day workshop on understanding Git, Docker and Postgres
 
