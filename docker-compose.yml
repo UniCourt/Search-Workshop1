@@ -4,7 +4,7 @@ services:
  database:
   container_name: ws1_db
   # For this service we are postgres:14-alpine image, it is nothing but a docker image. These images we can get it from dockerhub
-  image: postgres:14.1-alpine
+  image: public.ecr.aws/docker/library/postgres:14.1-alpine
   # Below we are setting the environment by setting username,password,db
   environment:
    POSTGRES_USER: postgres
