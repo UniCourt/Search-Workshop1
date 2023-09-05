@@ -33,14 +33,14 @@ CREATE DATABASE amazon;
 \q
 ```
 
-3. Dump student.sql file to student database
+3. Dump schema.sql file to amazon database
 ```
 psql -U postgres -d amazon --host <system_ip> --port 5435 < src/schema/schema.sql
 ```
 
 4. Run the script
 ```
-cd app
+cd src/app
 python3 populate.py
 ```
 

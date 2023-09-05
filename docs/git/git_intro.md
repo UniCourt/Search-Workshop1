@@ -14,7 +14,7 @@ changing as more code is added by developers. Git helps us with the following fe
 
   2. ### Branch:
       In Git, a branch can be considered as an independent 
-      line of development to isolate our work from others work.
+      line of development to isolate our work from others.
   3. ### Fork:
       Fork is nothing but a copy of a project present in git. When we want to contribute to 
       someone else’s project, we first make a copy of it in our own namespace.

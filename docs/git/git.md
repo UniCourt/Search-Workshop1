@@ -1,10 +1,10 @@
 # Setting up Git:
-## Create a gitHub account
+## Create a GitHub account
 https://github.com/
 
 
 
-Run following command to verify if Git works on your computer:
+Run following command to verify if git works on your computer:
 
     git --version
 
@@ -133,7 +133,7 @@ Push command sends all the committed changes to the remote repository. To push a
 
 To push your changes
 
-    git push origin excercise
+    git push origin exercise
 
 You can now go to github.com and see the updated code in your browser.
 

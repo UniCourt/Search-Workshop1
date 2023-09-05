@@ -33,7 +33,7 @@ psql -U postgres -d student < sql_file/student.sql
 ### Running script
 1. Login to script container.
 ```
-docker exec -it wk1_script sh
+docker exec -it ws1_script sh
 ```
 
 2. Run script:

@@ -1,10 +1,13 @@
 # Git, Docker and Postgres Workshop
 
-One Day workshop on understanding Git, Docker and Postgres
+A hands-on workshop to explain the basics of Git, Docker, 
+and Postgres. In this, you will learn the foundations of using 
+git for project collaboration, docker for app containerization, 
+and postgres for storing and retrieving application data. 
 
-## Prerequisite
+## Prerequisites
 
-##### Any Linux machine with following packages installed
+##### Any Linux machine (ubuntu is preferred) with following packages installed
 - git
 - python3.10
 - Docker
@@ -21,7 +24,7 @@ One Day workshop on understanding Git, Docker and Postgres
 - `sudo sh install_docker.sh`
 
 ## What will you learn by the end of this workshop?
-- Introduction to GIT
+- Introduction to git
 - Git commands (push, pull make Pull request etc)
 - Concepts of containerisation and why its required.
 - Building and running your own Containers.
@@ -36,7 +39,7 @@ One Day workshop on understanding Git, Docker and Postgres
 | Time            | Topics
 |-----------------|-------
 | 09:00 - 9:15   |  `Introduction`
-| 09:15 - 10:00   |  [`Introduction to GIT`](docs/git/git_intro.md)
+| 09:15 - 10:00   |  [`Introduction to git`](docs/git/git_intro.md)
 | 9:45 - 10:15   |  [`Git Commands (push, pull, make Pull request etc)`](docs/git/git.md)
 | 10:15 - 10:30   |  [`What is docker`](docs/docker/docker_intro.md)
 | 10:30 - 11:30   |  [`Docker Commands`](docs/docker/docker_commands.md)
