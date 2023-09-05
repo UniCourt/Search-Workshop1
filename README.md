@@ -1,74 +1,30 @@
 # Git, Docker and Postgres Workshop
 
-One Day workshop on understanding Git, Docker and Postgres
+A hands-on workshop to explain the basics of Git, Docker, 
+and Postgres. In this, you will learn the foundations of using 
+git for project collaboration, docker for app containerization, 
+and postgres for storing and retrieving application data. 
 
-## Prerequisite
-### Linux machine with following packages installed
-  1. Install Ubuntu 20.04.2 LTS.
-  2. Install Git from your terminal by running following commands
-     -   ```
-         sudo apt-get update
-         ```
-     -   ```
-         sudo apt-get install git
-         ```
-  3. Verify the installation was successful by typing
-     -   ```
-         git --version
+## Prerequisites
 
-### Fork and clone the workshop project from github:
- a. Log into your github account: https://github.com/ 
+##### Any Linux machine (ubuntu is preferred) with following packages installed
+- git
+- python3.10
+- Docker
+- Docker Compose
 
- b. After installing git, to start using git from your computer, you must enter your credentials to identify yourself as the author of your work. The username and email address should match the ones you use in Github.
-
-Add your username: 
-
-     git config --global user.name "your_username"
+##### GitHub account
+- Create an account on [GitHub](https://github.com/join) (if you don't already have one)
+- Fork [this](https://github.com/UniCourt/Search-Workshop1) repository and then clone it to your machine
+- You can refer [this](https://docs.github.com/en/get-started/quickstart/fork-a-repo) guide to understand how to fork and clone
 
 
-Add your email address:
-
-    git config --global user.email "your_email_address@example.com"
-
-To check the configuration, run:
-
-    git config --global --list
-
-Add ssh keys to your GitHub account:
-
-    1. ssh-keygen -t ed25519 -C  "your_email"
-    2. cat ~/.ssh/id_ed25519.pub
-    3. Visit this url: https://github.com/settings/ssh/new. Paste the key and save.
-
-### c. Fork the repository
-Forking refers to making a copy of a project you want to contribute to. 
-Now lets fork a project provided to complete this activity. 
-
-Follow these steps to fork a project:
-
-1. Go to the project url using this link: https://github.com/UniCourt/Search-Workshop1
-2. Click on the fork button in the project page
-3. Select a namespace to fork the project.
-
-
-#### d. Clone the repository
-Cloning a repository means the files from the remote repository are downloaded to your computer, 
-and a connection is created.
-
-1. Go to your project’s landing page and click Clone.
-2. Copy the URL for Clone with SSH.
-3. Open a terminal and go to the directory where you want to clone the files. Run these commands: \
-i.  ```cd``` \
-ii. ```mkdir projects``` \
-iii.```cd projects``` \
-iv. ```git clone <url_to_clone>``` 
-
-### 3. Install Docker:
-```cd ~/projects/Search-Workshop1```\
-```sudo sh install_docker.sh```
+##### Docker
+- To install docker go to your cloned repository and run the following command
+- `sudo sh install_docker.sh`
 
 ## What will you learn by the end of this workshop?
-- Introduction to GIT
+- Introduction to git
 - Git commands (push, pull make Pull request etc)
 - Concepts of containerisation and why its required.
 - Building and running your own Containers.
@@ -83,7 +39,7 @@ iv. ```git clone <url_to_clone>```
 | Time            | Topics
 |-----------------|-------
 | 09:00 - 9:15   |  `Introduction`
-| 09:15 - 10:00   |  [`Introduction to GIT`](docs/git/git_intro.md)
+| 09:15 - 10:00   |  [`Introduction to git`](docs/git/git_intro.md)
 | 9:45 - 10:15   |  [`Git Commands (push, pull, make Pull request etc)`](docs/git/git.md)
 | 10:15 - 10:30   |  [`What is docker`](docs/docker/docker_intro.md)
 | 10:30 - 11:30   |  [`Docker Commands`](docs/docker/docker_commands.md)

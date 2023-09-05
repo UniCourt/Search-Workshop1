@@ -7,8 +7,10 @@ services:
   image: postgres:14.1-alpine
   # Below we are setting the environment by setting username,password,db
   environment:
+   POSTGRES_DB: postgres
    POSTGRES_USER: postgres
    POSTGRES_PASSWORD: postgres
+
   # volumes from our system at target paths inside the container
   volumes:
     - db:/var/lib/postgresql/data
